@@ -1,0 +1,9 @@
+<div class="notes">
+  <button [routerLink]="'/create'" class="create_btn">Создать</button>
+  <div class="notes" *ngIf="loading">
+    <app-note-skeleton *ngFor="let note of [1, 2, 3, 4]"></app-note-skeleton>
+  </div>
+  <div class="notes" *ngIf="!loading">
+    <app-note *ngFor="let note of notes" [data]="note"></app-note>
+  </div>
+</div>

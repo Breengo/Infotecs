@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "notebook-6d586": {
+      "hosting": {
+        "infotecs": [
+          "notebook-6d586"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "notebook-6d586"
+  }
+}

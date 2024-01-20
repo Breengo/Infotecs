@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "infotecs:build:production",
+              "serveTarget": "infotecs:serve:production"
+            },
+            "development": {
+              "buildTarget": "infotecs:build:development",
+              "serveTarget": "infotecs:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

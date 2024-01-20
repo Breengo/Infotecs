@@ -1,0 +1,17 @@
+.create_btn {
+  float: left;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  border: none;
+  background-color: #4a4453;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="header">
+    <p>{{ getFormatedDate() }}</p>
+    <button [routerLink]="['/update', data.docId]" class="update_btn">
+      Редактировать
+    </button>
+    <button (click)="onDelete($event)" class="delete_btn">Удалить</button>
+  </div>
+  <div class="note">
+    <img class="note_img" src="{{ data.img }}" alt="err" />
+    <div class="editor" #editor></div>
+  </div>
+</div>

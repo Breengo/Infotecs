@@ -1,0 +1,7 @@
+<form class="form">
+  <div class="editor" #editor></div>
+  <img *ngIf="displayImage" [src]="data.img" class="img_preview" alt="error" />
+  <input (change)="onUpload($event)" class="file_input" type="file" />
+  <p class="error">{{ error }}</p>
+  <button (click)="onUpdate($event)" class="btn">Редактировать</button>
+</form>
