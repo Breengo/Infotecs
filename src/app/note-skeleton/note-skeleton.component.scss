@@ -13,3 +13,9 @@
     background-color: hsl(0, 2%, 25%);
   }
 }
+
+@media (max-width: 700px) {
+  .skeleton {
+    height: 150px;
+  }
+}

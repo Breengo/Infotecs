@@ -15,3 +15,16 @@
   gap: 20px;
   width: 700px;
 }
+
+@media (max-width: 700px) {
+  .create_btn {
+    padding: 5px 10px;
+
+    border-radius: 5px;
+  }
+
+  .notes {
+    gap: 10px;
+    width: 300px;
+  }
+}
